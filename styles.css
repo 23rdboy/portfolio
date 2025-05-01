@@ -1,0 +1,44 @@
+@import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    background-color: #f5ddff;
+    padding: 100px;
+    padding-left: 200px;
+    min-width: 250px;
+    max-width: 600px;
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    padding-top: 20px;
+    color: #5e4160;
+}
+
+li {
+    font-family: 'Press Start 2P';
+    font-size: 1rem;
+    line-height: 2;
+    height: 100%;
+    text-transform: uppercase;
+    color: #2e2534;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgba(58, 16, 83, 0.2);
+    width: fit-content;
+  }
+
+p {
+    font-family: "Zen Dots", sans-serif;
+    font-size: 15px;
+    color: #2e2534;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    clip-path: circle(30%);
+}

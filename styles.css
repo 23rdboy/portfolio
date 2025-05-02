@@ -2,38 +2,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 body {
-    background-color: #f5ddff;
-    padding: 100px;
+    background-color: #000000;
+    padding-top: 50px;
     padding-left: 200px;
     min-width: 250px;
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 h1 {
     font-family: 'Press Start 2P';
     padding-top: 20px;
-    color: #5e4160;
+    color: #98699c;
 }
 
-li {
+li, a {
     font-family: 'Press Start 2P';
     font-size: 1rem;
     line-height: 2;
     height: 100%;
     text-transform: uppercase;
-    color: #2e2534;
+    color: #53435d;
 }
 
 li:hover {
     cursor: pointer;
-    background-color: rgba(58, 16, 83, 0.2);
+    color: #98699c;
+    background-color: #251d2a;
     width: fit-content;
   }
 
 p {
     font-family: "Zen Dots", sans-serif;
     font-size: 15px;
-    color: #2e2534;
+    color: #44374d;
+}
+
+h2 {
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    color: #98699c;
 }
 
 img {
@@ -42,3 +49,38 @@ img {
     width: 300px;
     clip-path: circle(30%);
 }
+
+#altpage {
+    max-width: 700;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+    padding-left: 200px;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
